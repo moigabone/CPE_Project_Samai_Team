@@ -10,8 +10,8 @@
 The goal of this project is to predict if a patient is at risk of heart disease using Machine Learning algorithms. Early detection of cardiovascular diseases is crucial for proactive medical intervention. We analyzed clinical data, handled data preprocessing (including feature scaling and duplicate management), and trained three classification models (Logistic Regression, Random Forest, and K-Nearest Neighbors). In the medical field, we specifically prioritize the **Recall** metric to minimize false negatives, as failing to identify a sick patient carries severe risks.
 
 ## 📊 Dataset Description
-* **Source:** Kaggle ("Heart Disease Dataset" by David Lapp)
-* **URL:** https://www.kaggle.com/datasets/davidlap/heart-disease-dataset
+* **Source:** Kaggle ("Heart Disease Dataset" by johnsmith88
+* **URL:** https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 * **Context:** The data dates from 1988 and consists of four databases (Cleveland, Hungary, Switzerland, and Long Beach V). 
 * **Size:** Originally 1025 rows, reduced to **302 unique rows** after extensive data cleaning (removing 723 artificial duplicates). The dataset contains 14 columns.
 * **Features:** Age, sex, chest pain type (cp), resting blood pressure (trestbps), serum cholesterol (chol), fasting blood sugar (fbs), resting ECG (restecg), maximum heart rate (thalach), exercise-induced angina (exang), ST depression (oldpeak), ST segment slope (slope), major vessels colored by fluoroscopy (ca), and thalassemia (thal).
